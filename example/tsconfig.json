@@ -1,0 +1,10 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "ez-expo-share": ["../src/index"],
+      "ez-expo-share/*": ["../src/*"]
+    }
+  }
+}
