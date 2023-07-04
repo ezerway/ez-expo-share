@@ -1,6 +1,6 @@
 {
   "name": "ez-expo-share",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Config plugin to add a Share Extension to a React Native iOS app",
   "main": "build/index.js",
   "types": "build/index.d.ts",
@@ -30,13 +30,18 @@
   "homepage": "https://github.com/ezerway/ez-expo-share#readme",
   "dependencies": {},
   "devDependencies": {
+    "@types/lodash": "^4.14.195",
     "@types/react": "^18.0.25",
+    "@types/fs-extra": "^9.0.13",
+    "@types/node": "^17.0.42",
+    "copyfiles": "^2.4.1",
     "@types/react-native": "^0.70.6",
     "expo-module-scripts": "^3.0.4",
     "expo-modules-core": "^1.1.0"
   },
   "peerDependencies": {
     "expo": "*",
+    "lodash": "^4.17.21",
     "react": "*",
     "react-native": "*"
   }
