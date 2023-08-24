@@ -4,7 +4,7 @@
 
 ## What is it?
 
-An [Expo Config Plugin](https://docs.expo.dev/guides/config-plugins/) that allows you to add a Share Extension to your iOS apps.
+An [Expo Config Plugin](https://docs.expo.dev/guides/config-plugins/) that allows you to add a Share Extension to your iOS/Android apps.
 
 > **Note** Not sure what Share Extensions are? Check out [Apple's Share Extension documentation](https://developer.apple.com/library/archive/documentation/General/Conceptual/ExtensibilityPG/Share.html) to learn more.
 
