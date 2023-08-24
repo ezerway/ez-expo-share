@@ -1,6 +1,6 @@
 {
   "name": "ez-expo-share",
-  "version": "0.1.2",
+  "version": "0.1.5",
   "description": "Config plugin to add a Share Extension to a React Native iOS app",
   "main": "build/index.js",
   "types": "build/index.d.ts",

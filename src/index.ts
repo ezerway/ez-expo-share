@@ -6,17 +6,6 @@ import EzExpoShareModule from './EzExpoShareModule';
 import EzExpoShareView from './EzExpoShareView';
 import { ChangeEventPayload, EzExpoShareViewProps } from './EzExpoShare.types';
 
-// Get the native constant value.
-export const PI = EzExpoShareModule.PI;
-
-export function hello(): string {
-  return EzExpoShareModule.hello();
-}
-
-export async function setValueAsync(value: string) {
-  return await EzExpoShareModule.setValueAsync(value);
-}
-
 const emitter = new EventEmitter(EzExpoShareModule ?? NativeModulesProxy.EzExpoShare);
 
 export function addChangeListener(listener: (event: ChangeEventPayload) => void): Subscription {

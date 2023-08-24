@@ -1,5 +1,5 @@
 export type ChangeEventPayload = {
-  value: string;
+  [key: string]: any;
 };
 
 export type EzExpoShareViewProps = {
